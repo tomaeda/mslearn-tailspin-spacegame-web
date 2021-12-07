@@ -26,7 +26,7 @@ steps:
   displayName: 'Run npm install node-sass'
   inputs:
     command: custom
-    customCommand: rebuild node-sass
+    customCommand: install node-sass
     verbose: false
 
 - script: './node_modules/.bin/node-sass Tailspin.SpaceGame.Web/wwwroot --output Tailspin.SpaceGame.Web/wwwroot'
