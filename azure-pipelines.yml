@@ -19,13 +19,6 @@ steps:
 - task: Npm@1
   displayName: 'Run npm install'
   inputs:
-    command: custom
-    customCommand: cache clean
-    verbose: false
-
-- task: Npm@1
-  displayName: 'Run npm install'
-  inputs:
     command: install
     verbose: false
 
