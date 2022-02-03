@@ -16,4 +16,3 @@ steps:
 - script: dotnet build --configuration $(buildConfiguration)
   displayName: 'dotnet build $(buildConfiguration)'
 - publish: "/home/vsts/work/1/s/Tailspin.SpaceGame.Web/bin/Release/net5.0/Tailspin.SpaceGame.Web.dll"
-  artifact: drop
